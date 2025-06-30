@@ -1,0 +1,923 @@
+{
+  "status": "success",
+  "payload": [
+    {
+      "_id": "6859afa2bb1b9f275db941bc",
+      "name": "Oriental",
+      "specie": "shark",
+      "birthDate": "2024-09-17T08:13:11.877Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941bd",
+      "name": "Devon Rex",
+      "specie": "eagle",
+      "birthDate": "2025-06-03T10:24:14.465Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941be",
+      "name": "Sokoke",
+      "specie": "crocodile",
+      "birthDate": "2024-08-16T22:04:03.766Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941bf",
+      "name": "Serengeti",
+      "specie": "frog",
+      "birthDate": "2024-08-09T23:07:45.806Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c0",
+      "name": "Minskin",
+      "specie": "bird",
+      "birthDate": "2025-04-17T14:03:35.644Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c1",
+      "name": "American Shorthair",
+      "specie": "fish",
+      "birthDate": "2024-06-26T01:10:37.735Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c2",
+      "name": "Balinese",
+      "specie": "bat",
+      "birthDate": "2024-06-28T23:56:32.953Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c3",
+      "name": "Tonkinese",
+      "specie": "ostrich",
+      "birthDate": "2024-08-21T16:52:16.303Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c4",
+      "name": "Himalayan",
+      "specie": "kangaroo",
+      "birthDate": "2025-01-22T09:24:30.948Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c5",
+      "name": "Turkish Van",
+      "specie": "penguin",
+      "birthDate": "2024-07-05T08:21:10.049Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c6",
+      "name": "Thai",
+      "specie": "koala",
+      "birthDate": "2025-02-28T16:59:51.082Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c7",
+      "name": "LaPerm",
+      "specie": "bee",
+      "birthDate": "2024-12-30T19:21:23.913Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c8",
+      "name": "Somali",
+      "specie": "horse",
+      "birthDate": "2024-12-18T03:49:39.026Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941c9",
+      "name": "Tonkinese",
+      "specie": "koala",
+      "birthDate": "2025-03-25T12:12:53.112Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ca",
+      "name": "Minskin",
+      "specie": "parrot",
+      "birthDate": "2024-10-06T12:14:16.679Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941cb",
+      "name": "Burmese",
+      "specie": "gorilla",
+      "birthDate": "2024-06-25T08:11:56.409Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941cc",
+      "name": "Burmese",
+      "specie": "frog",
+      "birthDate": "2025-05-23T05:10:02.445Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941cd",
+      "name": "Singapura",
+      "specie": "eagle",
+      "birthDate": "2024-07-19T12:41:39.224Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ce",
+      "name": "Thai",
+      "specie": "tiger",
+      "birthDate": "2025-02-23T21:12:20.286Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941cf",
+      "name": "Chartreux",
+      "specie": "zebra",
+      "birthDate": "2025-02-10T23:19:18.229Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d0",
+      "name": "Balinese",
+      "specie": "koala",
+      "birthDate": "2025-05-30T23:32:39.295Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d1",
+      "name": "Manx",
+      "specie": "bear",
+      "birthDate": "2025-02-28T00:16:23.495Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d2",
+      "name": "Egyptian Mau",
+      "specie": "frog",
+      "birthDate": "2024-08-20T02:56:22.701Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d3",
+      "name": "Ocicat",
+      "specie": "tiger",
+      "birthDate": "2024-11-14T19:46:03.994Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d4",
+      "name": "Ocicat",
+      "specie": "panda",
+      "birthDate": "2024-07-19T05:39:09.416Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d5",
+      "name": "Korat",
+      "specie": "polar bear",
+      "birthDate": "2025-02-25T22:49:20.325Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d6",
+      "name": "Cornish Rex",
+      "specie": "lion",
+      "birthDate": "2024-07-02T20:03:34.908Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d7",
+      "name": "Devon Rex",
+      "specie": "ostrich",
+      "birthDate": "2024-11-16T19:41:27.000Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d8",
+      "name": "Munchkin",
+      "specie": "dolphin",
+      "birthDate": "2024-07-24T21:57:07.072Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941d9",
+      "name": "Singapura",
+      "specie": "penguin",
+      "birthDate": "2024-12-05T09:04:43.892Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941da",
+      "name": "Exotic Shorthair",
+      "specie": "dog",
+      "birthDate": "2024-10-14T05:43:53.749Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941db",
+      "name": "Bombay",
+      "specie": "zebra",
+      "birthDate": "2025-02-15T07:54:52.900Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941dc",
+      "name": "Sokoke",
+      "specie": "crocodile",
+      "birthDate": "2025-01-07T19:06:34.814Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941dd",
+      "name": "American Shorthair",
+      "specie": "flamingo",
+      "birthDate": "2025-03-20T04:58:54.988Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941de",
+      "name": "Oriental",
+      "specie": "crocodile",
+      "birthDate": "2024-12-08T13:08:25.241Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941df",
+      "name": "Birman",
+      "specie": "wolf",
+      "birthDate": "2024-11-20T03:45:25.406Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e0",
+      "name": "Cornish Rex",
+      "specie": "bat",
+      "birthDate": "2025-03-09T18:56:53.539Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e1",
+      "name": "Sphynx",
+      "specie": "flamingo",
+      "birthDate": "2025-01-14T14:48:06.283Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e2",
+      "name": "Chausie",
+      "specie": "ostrich",
+      "birthDate": "2024-12-20T05:02:38.483Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e3",
+      "name": "Savannah",
+      "specie": "lion",
+      "birthDate": "2025-04-19T13:58:56.785Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e4",
+      "name": "Somali",
+      "specie": "frog",
+      "birthDate": "2025-06-05T02:35:36.850Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e5",
+      "name": "Burmese",
+      "specie": "dog",
+      "birthDate": "2024-08-25T20:50:23.879Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e6",
+      "name": "Tonkinese",
+      "specie": "whale",
+      "birthDate": "2024-07-18T06:57:23.137Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e7",
+      "name": "Savannah",
+      "specie": "rabbit",
+      "birthDate": "2024-10-25T11:38:27.214Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e8",
+      "name": "Oriental",
+      "specie": "dolphin",
+      "birthDate": "2025-01-05T20:29:16.765Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941e9",
+      "name": "American Curl",
+      "specie": "panda",
+      "birthDate": "2024-12-12T22:36:09.982Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ea",
+      "name": "Turkish Van",
+      "specie": "frog",
+      "birthDate": "2024-09-29T08:08:39.108Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941eb",
+      "name": "Bombay",
+      "specie": "hamster",
+      "birthDate": "2025-01-13T19:52:34.704Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ec",
+      "name": "Abyssinian",
+      "specie": "butterfly",
+      "birthDate": "2024-09-14T19:01:55.229Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ed",
+      "name": "Ocicat",
+      "specie": "polar bear",
+      "birthDate": "2024-10-20T22:41:45.315Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ee",
+      "name": "Abyssinian",
+      "specie": "bird",
+      "birthDate": "2025-01-11T17:46:01.879Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ef",
+      "name": "Singapura",
+      "specie": "deer",
+      "birthDate": "2025-04-24T22:30:36.936Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f0",
+      "name": "Munchkin",
+      "specie": "dolphin",
+      "birthDate": "2025-03-04T04:30:13.756Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f1",
+      "name": "Abyssinian",
+      "specie": "koala",
+      "birthDate": "2024-10-27T10:27:56.802Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f2",
+      "name": "Peterbald",
+      "specie": "bear",
+      "birthDate": "2024-09-22T00:46:06.632Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f3",
+      "name": "Pixiebob",
+      "specie": "gecko",
+      "birthDate": "2024-08-04T08:31:20.038Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f4",
+      "name": "Snowshoe",
+      "specie": "flamingo",
+      "birthDate": "2024-08-15T13:48:37.310Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f5",
+      "name": "Abyssinian",
+      "specie": "monkey",
+      "birthDate": "2024-09-17T18:45:42.689Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f6",
+      "name": "Exotic Shorthair",
+      "specie": "butterfly",
+      "birthDate": "2025-01-04T10:01:44.746Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f7",
+      "name": "Chausie",
+      "specie": "polar bear",
+      "birthDate": "2025-05-31T17:01:37.995Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f8",
+      "name": "Persian",
+      "specie": "monkey",
+      "birthDate": "2025-01-05T10:23:44.291Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941f9",
+      "name": "Ocicat",
+      "specie": "rhinoceros",
+      "birthDate": "2024-11-29T19:50:14.806Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941fa",
+      "name": "Singapura",
+      "specie": "cow",
+      "birthDate": "2024-08-22T07:55:15.318Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941fb",
+      "name": "Nebelung",
+      "specie": "ostrich",
+      "birthDate": "2024-11-24T07:40:06.992Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941fc",
+      "name": "Tonkinese",
+      "specie": "dolphin",
+      "birthDate": "2024-09-12T11:05:07.791Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941fd",
+      "name": "Ocicat",
+      "specie": "hamster",
+      "birthDate": "2025-01-31T18:03:23.802Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941fe",
+      "name": "Tonkinese",
+      "specie": "butterfly",
+      "birthDate": "2024-12-10T20:31:40.699Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db941ff",
+      "name": "Serengeti",
+      "specie": "shark",
+      "birthDate": "2024-10-23T08:26:21.374Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94200",
+      "name": "Egyptian Mau",
+      "specie": "fox",
+      "birthDate": "2025-03-16T01:33:20.948Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94201",
+      "name": "Serengeti",
+      "specie": "butterfly",
+      "birthDate": "2024-11-18T21:18:37.673Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94202",
+      "name": "Egyptian Mau",
+      "specie": "flamingo",
+      "birthDate": "2025-04-08T06:54:29.671Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94203",
+      "name": "Serengeti",
+      "specie": "monkey",
+      "birthDate": "2024-09-18T09:34:45.528Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94204",
+      "name": "Siamese",
+      "specie": "fish",
+      "birthDate": "2025-01-14T21:22:24.164Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94205",
+      "name": "Persian",
+      "specie": "hamster",
+      "birthDate": "2024-10-13T20:17:19.163Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94206",
+      "name": "Japanese Bobtail",
+      "specie": "deer",
+      "birthDate": "2025-03-14T05:15:34.865Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94207",
+      "name": "Sphynx",
+      "specie": "lion",
+      "birthDate": "2025-05-16T13:35:17.641Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94208",
+      "name": "Cornish Rex",
+      "specie": "zebra",
+      "birthDate": "2024-10-02T08:47:06.109Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94209",
+      "name": "Toyger",
+      "specie": "deer",
+      "birthDate": "2025-06-02T06:04:53.047Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9420a",
+      "name": "Highlander",
+      "specie": "gecko",
+      "birthDate": "2025-06-01T10:59:07.267Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9420b",
+      "name": "American Curl",
+      "specie": "rabbit",
+      "birthDate": "2025-02-23T04:31:58.367Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9420c",
+      "name": "LaPerm",
+      "specie": "ostrich",
+      "birthDate": "2025-02-09T21:07:02.297Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9420d",
+      "name": "Bengal",
+      "specie": "fish",
+      "birthDate": "2025-02-17T23:25:27.171Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9420e",
+      "name": "Donskoy",
+      "specie": "whale",
+      "birthDate": "2025-06-09T21:20:06.406Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9420f",
+      "name": "Donskoy",
+      "specie": "gorilla",
+      "birthDate": "2024-07-13T19:03:46.017Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94210",
+      "name": "Ragdoll",
+      "specie": "gorilla",
+      "birthDate": "2024-07-31T13:22:14.793Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94211",
+      "name": "Balinese",
+      "specie": "flamingo",
+      "birthDate": "2025-05-10T19:35:23.727Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94212",
+      "name": "Himalayan",
+      "specie": "zebra",
+      "birthDate": "2024-12-26T23:28:15.139Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94213",
+      "name": "Abyssinian",
+      "specie": "parrot",
+      "birthDate": "2025-03-07T01:47:05.472Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94214",
+      "name": "Ragdoll",
+      "specie": "koala",
+      "birthDate": "2025-01-31T03:05:56.494Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94215",
+      "name": "Sokoke",
+      "specie": "hamster",
+      "birthDate": "2025-06-12T02:27:13.887Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94216",
+      "name": "American Wirehair",
+      "specie": "giraffe",
+      "birthDate": "2024-07-03T05:24:27.601Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94217",
+      "name": "Persian",
+      "specie": "horse",
+      "birthDate": "2024-10-30T22:57:21.693Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94218",
+      "name": "Korat",
+      "specie": "sea lion",
+      "birthDate": "2024-10-28T10:03:12.031Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db94219",
+      "name": "Balinese",
+      "specie": "hamster",
+      "birthDate": "2024-11-07T23:20:16.787Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9421a",
+      "name": "Exotic Shorthair",
+      "specie": "crocodile",
+      "birthDate": "2025-05-24T15:26:57.782Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9421b",
+      "name": "Devon Rex",
+      "specie": "eagle",
+      "birthDate": "2024-09-15T16:46:24.156Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9421c",
+      "name": "Chartreux",
+      "specie": "giraffe",
+      "birthDate": "2024-08-08T06:51:22.939Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9421d",
+      "name": "Russian Blue",
+      "specie": "tiger",
+      "birthDate": "2024-06-28T12:47:33.213Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9421e",
+      "name": "Scottish Fold",
+      "specie": "dolphin",
+      "birthDate": "2025-03-27T18:59:12.280Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "6859afa2bb1b9f275db9421f",
+      "name": "American Shorthair",
+      "specie": "butterfly",
+      "birthDate": "2025-04-23T05:56:22.812Z",
+      "adopted": false,
+      "image": "https://loremflickr.com/640/480/animal",
+      "__v": 0
+    },
+    {
+      "_id": "685c909b6a3bd707bf220c13",
+      "name": "Mateo",
+      "specie": "Dog",
+      "birthDate": "2025-06-26T00:00:00.000Z",
+      "adopted": false,
+      "image": "",
+      "__v": 0
+    },
+    {
+      "_id": "685c909f6a3bd707bf220c15",
+      "name": "Mateo",
+      "specie": "Dog",
+      "birthDate": "2025-06-26T00:00:00.000Z",
+      "adopted": false,
+      "image": "",
+      "__v": 0
+    }
+  ]
+}

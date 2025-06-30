@@ -1,0 +1,55 @@
+paths:
+  /api/sessions/register:
+    post:
+      summary: Registro de usuario
+      tags:
+        - Sessions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [first_name, last_name, email, password]
+              properties:
+                first_name:
+                  type: string
+                last_name:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Usuario registrado exitosamente
+
+  /api/sessions/login:
+    post:
+      summary: Login de usuario
+      tags:
+        - Sessions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Login exitoso
+
+  /api/sessions/current:
+    get:
+      summary: Devuelve el usuario actual autenticado
+      tags:
+        - Sessions
+      responses:
+        '200':
+          description: Usuario autenticado
