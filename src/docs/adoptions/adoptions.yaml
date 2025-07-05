@@ -1,0 +1,44 @@
+paths:
+  /api/adoptions:
+    get:
+      summary: Obtener todas las adopciones
+      tags:
+        - Adoptions
+      responses:
+        '200':
+          description: Lista de adopciones
+
+  /api/adoptions/{aid}:
+    get:
+      summary: Obtener una adopción por ID
+      tags:
+        - Adoptions
+      parameters:
+        - name: aid
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Detalle de la adopción
+
+  /api/adoptions/{uid}/{pid}:
+    post:
+      summary: Crear una adopción
+      tags:
+        - Adoptions
+      parameters:
+        - name: uid
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Adopción creada exitosamente
