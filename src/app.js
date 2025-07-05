@@ -17,8 +17,12 @@ import { swaggerSpecs } from './config/swagger.js';
 
 const app = express();
 const PORT = config.port|| 8080;
-const connection = mongoose.connect(`mongodb://127.0.0.1:27017/Adoptme?directConnection=true`)
-  .then(() => {
+const MONGO_URL = config.mongoUrl || 'mongodb://127.0.0.1:27017/Adoptme?directConnection=true';
+
+//const connection = mongoose.connect(`mongodb://127.0.0.1:27017/Adoptme?directConnection=true`)
+
+const connection = mongoose.connect(MONGO_URL)
+.then(() => {
     logger.info('✅ Conexión realizada con éxito a MongoDB');
     app.listen(PORT, () => {
       logger.info(`🚀 Servidor escuchando en el puerto ${PORT}`);
@@ -33,7 +37,7 @@ const connection = mongoose.connect(`mongodb://127.0.0.1:27017/Adoptme?directCon
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(errorHandler)
+
 app.use(addLogger);
 
 app.use('/api/users', usersRouter);
@@ -43,5 +47,7 @@ app.use('/api/sessions', sessionsRouter);
 app.use('/api/mocking', mockingRouter);
 app.use('/api/logger', loggerRouter);
 app.use('/api/docs', swaggerUIexpress.serve, swaggerUIexpress.setup(swaggerSpecs));
+
+app.use(errorHandler);
 
 export default app;

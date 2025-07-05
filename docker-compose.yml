@@ -1,0 +1,15 @@
+services:
+  adoptme-backend:
+    build: .
+    container_name: adoptme-backend
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MONGO_URL=mongodb://host.docker.internal:27017/Adoptme?directConnection=true
+      - ENVIRONMENT=development
+    volumes:
+      - .:/app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: ["npm", "start"]

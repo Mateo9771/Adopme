@@ -1,1 +1,11 @@
-Documentación disponible en: http://localhost:8080/apidocs
+# AdoptMe Backend
+
+Este es el backend de la aplicación AdoptMe, una API RESTful construida con Express y MongoDB para gestionar adopciones de mascotas.
+
+## Imagen de Docker
+
+La imagen de Docker para este proyecto está disponible en Docker Hub:
+
+- **Imagen**: [docker pull mateo7991/adoptme-backend-server:latest](https://hub.docker.com/r/mateo7991/adoptme-backend-server/tags)
+- **Enlace**: https://hub.docker.com/r/mateo7991/adoptme-backend-server/tags
+
