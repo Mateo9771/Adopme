@@ -1,4 +1,11 @@
 {
+<<<<<<< HEAD
+  "name": "adoptme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+=======
   "name": "plantilladocumentacion",
   "version": "1.0.0",
   "description": "",
@@ -8,10 +15,24 @@
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
     "test": "mocha ./test/**/*.test.js --timeout 10000"
+>>>>>>> c1a7910c82c25cf1fd143ab786091b8da6f844c8
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  },
+  "type": "module"
+=======
   "dependencies": {
     "@faker-js/faker": "^9.8.0",
     "bcrypt": "^5.1.0",
@@ -31,4 +52,5 @@
     "mocha": "^10.8.2",
     "supertest": "^7.1.1"
   }
+>>>>>>> c1a7910c82c25cf1fd143ab786091b8da6f844c8
 }
