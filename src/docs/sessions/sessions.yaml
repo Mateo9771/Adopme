@@ -14,12 +14,16 @@ paths:
               properties:
                 first_name:
                   type: string
+                  example: Mateo
                 last_name:
                   type: string
+                  example: Baldoni
                 email:
                   type: string
+                  example: mateo@testmail.com
                 password:
                   type: string
+                  example: securePass123
       responses:
         '200':
           description: Usuario registrado exitosamente
@@ -39,8 +43,10 @@ paths:
               properties:
                 email:
                   type: string
+                  example: mateo@testmail.com
                 password:
                   type: string
+                  example: securePass123
       responses:
         '200':
           description: Login exitoso

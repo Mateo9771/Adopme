@@ -7,6 +7,19 @@ paths:
       responses:
         '200':
           description: Lista de mascotas
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Pet'
+              example:
+                - name: Max
+                  specie: Perro
+                  birthDate: 2019-08-15
+                - name: Luna
+                  specie: Gato
+                  birthDate: 2021-03-22
 
     post:
       summary: Crear una nueva mascota
@@ -17,19 +30,22 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              required: [name, specie, birthDate]
-              properties:
-                name:
-                  type: string
-                specie:
-                  type: string
-                birthDate:
-                  type: string
-                  format: date
+              $ref: '#/components/schemas/PetInput'
+            example:
+              name: Rocky
+              specie: Perro
+              birthDate: 2020-01-10
       responses:
         '200':
           description: Mascota creada exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+              example:
+                name: Rocky
+                specie: Perro
+                birthDate: 2020-01-10
 
   /api/pets/{pid}:
     put:
@@ -43,13 +59,26 @@ paths:
           schema:
             type: string
       requestBody:
+        required: true
         content:
           application/json:
             schema:
-              type: object
+              $ref: '#/components/schemas/PetInput'
+            example:
+              name: Rocky
+              specie: Perro
+              birthDate: 2020-01-10
       responses:
         '200':
           description: Mascota actualizada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+              example:
+                name: Rocky
+                specie: Perro
+                birthDate: 2020-01-10
 
     delete:
       summary: Eliminar una mascota

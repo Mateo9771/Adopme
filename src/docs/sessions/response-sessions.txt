@@ -1,0 +1,26 @@
+Response Register:
+
+{
+  "status": "success",
+  "payload": "68697a784a6ac095489f54e5"
+}
+
+Response Login:
+
+{
+  "status": "success",
+  "message": "Logged in"
+}
+
+Response Current:
+
+{
+  "status": "success",
+  "payload": {
+    "name": "Mateo Test",
+    "role": "user",
+    "email": "mateotest@test.com",
+    "iat": 1751743124,
+    "exp": 1751746724
+  }
+}

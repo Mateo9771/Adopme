@@ -7,6 +7,18 @@ paths:
       responses:
         '200':
           description: Lista de adopciones
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Adoption'
 
   /api/adoptions/{aid}:
     get:
@@ -19,9 +31,14 @@ paths:
           required: true
           schema:
             type: string
+            example: 64d0b22a7a9d3f3f6fbc1234
       responses:
         '200':
           description: Detalle de la adopción
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Adoption'
 
   /api/adoptions/{uid}/{pid}:
     post:
@@ -34,11 +51,49 @@ paths:
           required: true
           schema:
             type: string
+            example: 64bcae5b36a3e3d25ce80a91
         - name: pid
           in: path
           required: true
           schema:
             type: string
+            example: 64c1c740a778c0a2b5f902f1
       responses:
         '200':
           description: Adopción creada exitosamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: Adopción registrada correctamente
+                  adoption:
+                    $ref: '#/components/schemas/Adoption'
+
+components:
+  schemas:
+    Adoption:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: 64d0b22a7a9d3f3f6fbc1234
+        user:
+          type: string
+          example: 64bcae5b36a3e3d25ce80a91
+        pet:
+          type: string
+          example: 64c1c740a778c0a2b5f902f1
+        date:
+          type: string
+          format: date-time
+          example: 2025-07-05T18:00:00Z
+        status:
+          type: string
+          example: aprobada
+
